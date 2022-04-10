@@ -186,4 +186,6 @@ const writeFile = () => {
         fs.writeFileSync(OUTPUTpath, generateHTML(employeeArray), 'utf-8');
 
     }
-}; 
+};
+
+newEmployee();
