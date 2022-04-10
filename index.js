@@ -187,5 +187,3 @@ const writeFile = () => {
 
     }
 }; 
-
-newEmployee();
