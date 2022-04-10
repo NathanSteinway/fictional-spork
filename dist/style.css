@@ -1,0 +1,26 @@
+html body {
+    background-color: #121212;
+}
+
+.hero {
+    border-radius: 0;
+    background-color: rgba(64,55,92);
+}
+
+.hero-text-color {
+    color: #74e39a;
+}
+
+.employee-card {
+    box-shadow: 5px 5px 5px gray;
+    margin: 1rem;
+    border: none;
+}
+
+.card-body {
+    background-color: rgb(240, 240, 240);
+}
+
+.card-header-color {
+    background-color: #74e39a;
+}
