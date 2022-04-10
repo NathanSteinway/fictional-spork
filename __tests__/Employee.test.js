@@ -10,7 +10,7 @@ test('create Employee object', () => {
 
 test('add name to Employee object', () => {
 
-    const newName = "Ditto";
+    const newName = 'Ditto';
 
     const employeeObject = new Employee(newName);
 
@@ -22,16 +22,16 @@ test('add an ID to the Employee object', () => {
 
     const id = 5;
 
-    const employeeInstance = new Employee("Ditto", id);
+    const employeeInstance = new Employee('Ditto', id);
 
     expect(employeeInstance.id).toBe(id);
 })
 
 test('add an email to the Employee object', () => {
 
-    const email = "fake@anywhere.com";
+    const email = 'fake@anywhere.com';
 
-    const employeeInstance = new Employee("Ditto", 5, email);
+    const employeeInstance = new Employee('Ditto', 5, email);
 
     expect(employeeInstance.email).toBe(email);
 })
@@ -40,7 +40,7 @@ test('add an email to the Employee object', () => {
 
 test('Tests getName();', () => {
 
-    const testName = "Ditto";
+    const testName = 'Ditto';
 
     const employeeInstance = new Employee(testName);
 
@@ -52,7 +52,7 @@ test('Tests getID();', () => {
 
     const testID = 5;
 
-    const employeeInstance = new Employee("Ditto", testID);
+    const employeeInstance = new Employee('Ditto', testID);
 
     expect(employeeInstance.getId()).toBe(testID);
 
@@ -60,9 +60,9 @@ test('Tests getID();', () => {
 
 test('Tests getEmail();', () => {
 
-    const testEmail = "fake@anywhere.com";
+    const testEmail = 'fake@anywhere.com';
 
-    const employeeInstance = new Employee("Ditto", 5, testEmail);
+    const employeeInstance = new Employee('Ditto', 5, testEmail);
 
     expect(employeeInstance.getEmail()).toBe(testEmail);
 
@@ -70,9 +70,9 @@ test('Tests getEmail();', () => {
 
 test('Testing role.', () => {
 
-    const returnValue = "Employee";
+    const returnValue = 'Employee';
 
-    const employeeInstance = new Employee("Ditto", 5, "fake@anywhere.com");
+    const employeeInstance = new Employee('Ditto', 5, 'fake@anywhere.com');
 
     expect(employeeInstance.getRole()).toBe(returnValue);
     

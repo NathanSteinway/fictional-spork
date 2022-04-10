@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager');
 
-test("Tests office number creation", () => {
+test('Tests office number creation', () => {
 
     const testOfficeNumber = 5;
 
@@ -10,11 +10,11 @@ test("Tests office number creation", () => {
 
 });
 
-test("Tests getRole();", () => {
+test('Tests getRole();', () => {
 
-    const returnValue = "Manager";
+    const returnValue = 'Manager';
 
-    const employeeInstance = new Manager("Ditto", 5, "fake@anywhere.com", 2);
+    const employeeInstance = new Manager('Ditto', 5, 'fake@anywhere.com', 2);
 
     expect(employeeInstance.getRole()).toBe(returnValue);
 
